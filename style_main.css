@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/* 共通スタイルシート */
+
+html{
+	margin: 0;
+}
+
+body{
+	background-color: #ffecec;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* ヘッダー */
+header{
+	width: 100%;
+	height: 14vh;
+	background: linear-gradient(90deg, #ee827c 0%, #b3605d 70%);
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+ul{
+	list-style: none;
+	height: 14vh;
+	padding-inline-start: 0;
+	margin-left: 1.2vw;
+}
+
+li{
+	float: left;
+	vertical-align: middle;
+}
+
+body{
+	margin: 0px;
+}
+
+/*ロゴ(RED)*/
+.title{
+	padding-right: 2vw;
+	font-size: 4vw;
+	color: #f70000;
+	text-shadow: 2px 2px 0 #ff8000, -1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px -1px 0 #ffffff, 0px 1px 0 #ffffff, 0 -1px 0 #ffffff, -1px 0 0 #ffffff, 1px 0 0 #ffffff;
+}
+
+/*カテゴリー*/
+select[name="categoryId"]{
+	border: 0.1vw solid #400040;
+	padding: 0.3vw;
+	width: 12vw;
+	border-radius: 0.3em;
+	font-size: 0.8vw;
+}
+
+/*ボタン*/
+input[type="button"], input[type="submit"]{
+	background-image: linear-gradient(0deg, #990033, #ffcc99);
+	color: #ffffff;
+	border: 0.05vw solid #400040; /* 枠線 */
+	border-radius: 1em; /* 角丸 */
+	margin: 0.8vh 1vw;
+	text-align: center;
+	padding: 0.6vw;
+	width: 9vw;
+	vertical-align: middle;
+	font-size: 1vw;
+}
+
+
+input[type="button"]:hover, input[type="submit"]:hover{
+	background-image: linear-gradient(0deg, #db0047, #ffdfbf);
+}
+
+/* タイトルh1 */
+h1{
+	clear: both;
+	width: 90vw;
+	margin: 0 auto;
+	margin-top: 1vh;
+	margin-bottom: 3vh;
+	border-top: solid 0.5vh #e76b18; /*線*/
+	border-bottom: solid 0.5vh #e76b18; /*線*/
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	background-color: #ffffff;
+	text-align: center;
+	color: #e76b18;
+	font-size: 3vw;
+}
+/* エラーページタイトル */
+h1.error{
+	text-align : left;
+}
+
+/*テキストボックス*/
+input[name="searchWord"]{
+	border-radius: 0.8em;
+	border: 1px solid #000000;
+	padding: 0.4vw;
+	width: 13vw;
+	font-size: 0.5vw
+}
+
+/*エラーメッセージ*/
+div.errormessage{
+	padding: 1vh;
+	margin: 0 auto;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+	width: 85vw;;
+	font-weight: bold;
+	color: #c40000;
+	background: #ffa4a4;
+	border: solid 0.5vh #a80000;
+	text-align: center;
+}
+div.errorLeft{
+	text-align: left;
+}
+/*メッセージ*/
+div.message{
+	padding: 1vh;
+	margin: 0 auto;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+	width: 85vw;
+	font-weight: bold;
+	color: #b7b700;
+	background: #ffff9d;
+	border: solid 0.5vh #cccc00;
+	text-align: center;
+}

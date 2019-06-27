@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 完了画面共通スタイルシート */
+/* 対象ページ：createDestinationComplete.jsp, createUserComplete.jsp, resetPasswordComplete.jsp, settlementConfirm.jsp, mypage.jsp */
+
+/* 完了メッセージ表示用スペース */
+div#success{
+	padding: 18px 2px;
+    margin: 0px auto ;
+    margin-top: 20px;
+    width: 85%;
+    font-weight: bold;
+    color: #00ca00;
+    background: #b5ffb5;
+    border: solid 2px #40ee56;
+    text-align: center;
+}
